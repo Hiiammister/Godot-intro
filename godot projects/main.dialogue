@@ -1,0 +1,20 @@
+~ main
+if global.given_slimes_item== true
+	IntroPig: konichiwa...whatsup?
+	- i am new to this game.
+		IntroPig: well even i am, we are stuck in an existential crisis then ...
+	- i have nothing for u.
+		IntroPig: oh oink ig... 
+		=> END
+	- goodbye. => END
+else:
+	IntroPig: hello...else statement active?
+	- i am new to this game.
+		IntroPig: well even i am, we are stuck in an existential crisis then ...
+	- i have nothing for u.
+		IntroPig: oh oink ig... 
+		=> END
+	- goodbye. => END
+	
+
+
